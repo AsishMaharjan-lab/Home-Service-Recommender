@@ -1,0 +1,8 @@
+[
+    {
+        "id": "user_1",
+        "username": "Asish Maharjan",
+        "email": "asish.prt@gmail.com",
+        "password": "scrypt:32768:8:1$Rw22v0aIM9mMVjbo$b8befb703667df0aa552054e5b86893f0316d705888c050e800ad7c0c697fb0f375b14f6b372899ae73423f28869c92b682569749a7cfb76d9553d21bc1ab00d"
+    }
+]

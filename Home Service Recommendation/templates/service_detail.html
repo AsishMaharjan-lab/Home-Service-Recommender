@@ -1,0 +1,99 @@
+{% extends "base.html" %}
+
+{% block title %}{{ service.Name }} - Service Details{% endblock %}
+
+{% block content %}
+    <div class="card p-4 shadow-sm rounded-4 mb-4">
+        {% if service %}
+            <h1 class="card-title text-center mb-4 text-primary">{{ service.Name }}</h1>
+            <div class="card-body">
+                <p class="card-text"><strong>Service Type:</strong> {{ service['Service Type'] }}</p>
+                <p class="card-text"><strong>Location:</strong> {{ service.Location }}</p>
+                <p class="card-text"><strong>Rating:</strong> <span class="badge bg-success">{{ service.Rating }} &#9733;</span></p>
+                <p class="card-text"><strong>Skills:</strong> {{ service.Skills }}</p>
+                <p class="card-text"><strong>Days Available:</strong> {{ service['Days Available'] }}</p>
+                <p class="card-text">
+                    <strong>Contact:</strong>
+                    <span id="contact-detail" class="contact-number">{{ service.Contact }}</span>
+                    <button class="btn btn-sm btn-outline-secondary ms-2 copy-contact-btn" data-contact="{{ service.Contact }}" data-target="contact-detail">
+                        Copy
+                    </button>
+                    <span id="copied-message-detail" class="ms-2 text-success fw-bold d-none">Copied!</span>
+                </p>
+            </div>
+        {% else %}
+            <div class="alert alert-danger text-center rounded-pill" role="alert">
+                Service provider not found.
+            </div>
+        {% endif %}
+    </div>
+
+    <!-- Review Section -->
+    <div class="card p-4 shadow-sm rounded-4 mb-4">
+        <h2 class="card-title text-primary mb-3">Customer Reviews</h2>
+        {% if reviews %}
+            <ul class="list-group list-group-flush">
+                {% for review in reviews %}
+                <li class="list-group-item rounded-3 mb-2 shadow-sm-sm">
+                    <strong>Rating:</strong> {{ review.rating }} &#9733; <br>
+                    {% if review.comment %}
+                        <p class="mb-1">{{ review.comment }}</p>
+                    {% endif %}
+                    <small class="text-muted">By User: {{ review.user_id }} on {{ review.timestamp.split('T')[0] if review.timestamp else 'N/A' }}</small>
+                </li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No reviews yet. Be the first to leave one!</p>
+        {% endif %}
+
+        <h3 class="mt-4 text-primary">Leave a Review</h3>
+        {% if current_user_id %}
+            <form id="reviewForm" class="mt-3">
+                <input type="hidden" id="serviceIdReview" value="{{ service.ID }}">
+                <div class="mb-3">
+                    <label for="reviewRating" class="form-label">Rating (1-5):</label>
+                    <input type="number" id="reviewRating" class="form-control rounded-pill" min="1" max="5" step="0.5" required>
+                </div>
+                <div class="mb-3">
+                    <label for="reviewComment" class="form-label">Comment (Optional):</label>
+                    <textarea id="reviewComment" class="form-control rounded-3" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary rounded-pill">Submit Review</button>
+                <div id="reviewMessage" class="mt-3"></div>
+            </form>
+        {% else %}
+            <div class="alert alert-info rounded-pill mt-3" role="alert">
+                Please <a href="{{ url_for('login') }}">login</a> or <a href="{{ url_for('register') }}">register</a> to leave a review.
+            </div>
+        {% endif %}
+    </div>
+
+    <!-- Booking Section -->
+    <div class="card p-4 shadow-sm rounded-4 mb-4">
+        <h2 class="card-title text-primary mb-3">Request a Booking</h2>
+        {% if current_user_id %}
+            <form id="bookingForm" class="mt-3">
+                <input type="hidden" id="serviceIdBooking" value="{{ service.ID }}">
+                <div class="mb-3">
+                    <label for="bookingDate" class="form-label">Preferred Date:</label>
+                    <input type="date" id="bookingDate" class="form-control rounded-pill" required>
+                </div>
+                <div class="mb-3">
+                    <label for="bookingNotes" class="form-label">Notes (e.g., specific time, details):</label>
+                    <textarea id="bookingNotes" class="form-control rounded-3" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-success rounded-pill">Request Booking</button>
+                <div id="bookingMessage" class="mt-3"></div>
+            </form>
+        {% else %}
+            <div class="alert alert-info rounded-pill mt-3" role="alert">
+                Please <a href="{{ url_for('login') }}">login</a> or <a href="{{ url_for('register') }}">register</a> to request a booking.
+            </div>
+        {% endif %}
+    </div>
+
+    <div class="text-center mt-4">
+        <a href="/" class="btn btn-outline-secondary rounded-pill">Back to Home</a>
+    </div>
+{% endblock %}

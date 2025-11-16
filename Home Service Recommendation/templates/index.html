@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+
+{% block title %}Home Service Recommender - Search{% endblock %}
+
+{% block content %}
+    <div class="card p-4 shadow-sm rounded-4">
+        <h1 class="card-title text-center mb-4 text-primary">Find Your Perfect Home Service</h1>
+
+        {% if current_username %} {# Check for current_username instead of current_user_id for display #}
+            <p class="text-center text-muted mb-4">Welcome, <strong>{{ current_username }}</strong>!</p>
+        {% endif %}
+
+        <form action="/recommend" method="POST">
+            <div class="mb-3">
+                <label for="service_type" class="form-label">Service Type:</label>
+                <select id="service_type" name="service_type" class="form-select rounded-pill" required>
+                    <option value="">Select a service...</option>
+                    {% for st in service_types %}
+                    <option value="{{ st }}">{{ st }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label for="location" class="form-label">Location:</label>
+                <select id="location" name="location" class="form-select rounded-pill">
+                    <option value="">Any Location</option>
+                    {% for loc in locations %}
+                    <option value="{{ loc }}">{{ loc }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label for="skills" class="form-label">Desired Skills (comma-separated, e.g., "Pipe Repair, Tap Fix"):</label>
+                <input type="text" id="skills" name="skills" class="form-control rounded-pill" placeholder="e.g., Wall Painting, Wiring">
+                <small class="form-text text-muted">For best results, enter specific skills.</small>
+            </div>
+
+            <div class="mb-3">
+                <label for="rating" class="form-label">Minimum Rating (1.0 - 5.0):</label>
+                <input type="number" id="rating" name="rating" class="form-control rounded-pill" step="0.1" min="1.0" max="5.0" value="4.0">
+            </div>
+
+            <div class="mb-4">
+                <label for="days_available" class="form-label">Days Available (e.g., Mon-Fri, Tue, Sat):</label>
+                <input type="text" id="days_available" name="days_available" class="form-control rounded-pill" placeholder="e.g., Mon-Fri, Sat">
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <label for="sort_by" class="form-label">Sort By:</label>
+                    <select id="sort_by" name="sort_by" class="form-select rounded-pill">
+                        <option value="similarity">Relevance</option>
+                        <option value="Rating">Rating</option>
+                        <option value="Name">Name</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label for="sort_order" class="form-label">Sort Order:</label>
+                    <select id="sort_order" name="sort_order" class="form-select rounded-pill">
+                        <option value="desc">Descending</option>
+                        <option value="asc">Ascending</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="d-grid">
+                <button type="submit" class="btn btn-primary btn-lg rounded-pill">Get Recommendations</button>
+            </div>
+        </form>
+
+        <div class="d-flex justify-content-center gap-3 mt-5">
+            {% if current_user_id %}
+                <a href="{{ url_for('logout') }}" class="btn btn-outline-secondary rounded-pill">Logout</a>
+            {% endif %}
+            {% if current_user_id and current_user_id != 'admin' %}
+                <button id="deleteMyAccountBtn" class="btn btn-danger rounded-pill">Delete My Account</button>
+            {% endif %}
+        </div>
+    </div>
+{% endblock %}

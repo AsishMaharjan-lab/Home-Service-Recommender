@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+
+{% block title %}Login - Home Service Recommender{% endblock %}
+
+{% block content %}
+    <div class="card p-4 shadow-sm rounded-4 mx-auto" style="max-width: 500px;">
+        <h1 class="card-title text-center mb-4 text-primary">Login</h1>
+        <form id="loginForm">
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address / Admin Username</label>
+                <input type="text" class="form-control rounded-pill" id="email" name="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control rounded-pill" id="password" name="password" required>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="adminLoginCheck" name="admin_login">
+                <label class="form-check-label" for="adminLoginCheck">Login as Admin</label>
+            </div>
+            <div class="d-grid gap-2">
+                <button type="submit" class="btn btn-primary btn-lg rounded-pill">Login</button>
+            </div>
+            <p class="text-center mt-3">Don't have an account? <a href="{{ url_for('register') }}">Register here</a></p>
+        </form>
+        <div id="loginMessage" class="mt-3 text-center"></div>
+    </div>
+{% endblock %}
+
+{% block body_extra %}
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const loginForm = document.getElementById('loginForm');
+        if (loginForm) {
+            loginForm.addEventListener('submit', async function(event) {
+                event.preventDefault();
+                const email = document.getElementById('email').value;
+                const password = document.getElementById('password').value;
+                const adminLogin = document.getElementById('adminLoginCheck').checked;
+                const loginMessageDiv = document.getElementById('loginMessage');
+
+                loginMessageDiv.innerHTML = '<div class="spinner-border text-primary" role="status"><span class="visually-hidden">Loading...</span></div> Logging in...';
+                loginMessageDiv.className = 'mt-3 text-center';
+
+                try {
+                    const response = await fetch('/login', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/x-www-form-urlencoded'
+                        },
+                        body: new URLSearchParams({
+                            email: email,
+                            password: password,
+                            admin_login: adminLogin ? 'on' : '' // Send 'on' if checked
+                        })
+                    });
+
+                    if (response.ok) {
+                        window.location.href = response.url; // Follow Flask's redirect
+                    } else {
+                        const errorText = await response.text();
+                        loginMessageDiv.innerHTML = `<div class="alert alert-danger rounded-pill" role="alert">Login failed: ${errorText}</div>`;
+                    }
+
+                } catch (error) {
+                    console.error('Error during login fetch:', error);
+                    loginMessageDiv.innerHTML = `<div class="alert alert-danger rounded-pill" role="alert">An unexpected error occurred.</div>`;
+                }
+            });
+        }
+    });
+</script>
+{% endblock %}

@@ -1,0 +1,401 @@
+ID,Name,Service Type,Skills,Location,Rating,Days Available,Contact
+1,Maya Repairs,Plumber,"Toilet Repair, Pipe Installation",Patan,4.4,Tue–Sat,9801000001
+2,Sewa Sansar,Plumber,"Tap Fix, Sink Fix",Kalanki,4.9,Wed–Sun,9801000002
+3,Krishna Fix,Electrician,"Light Installation, Socket Repair",Kalanki,4.1,Sat–Wed,9801000003
+4,Sewa Enterprises,Electrician,"Wiring, Light Installation",Patan,3.6,Mon–Fri,9801000004
+5,local Fix,Painter,"Ceiling Paint, Wall Painting",Koteshwor,4.4,Tue–Sat,9801000005
+6,KTM Repair,Painter,"Outdoor Paint, Ceiling Paint",Thamel,4.3,Sat–Wed,9801000006
+7,TechMend,Painter,"Ceiling Paint, Outdoor Paint",Koteshwor,3.5,Thu–Mon,9801000007
+8,SkillHub,Electrician,"Socket Repair, Light Installation",Thamel,3.7,Thu–Mon,9801000008
+9,kamala Repair,Painter,"Ceiling Paint, Outdoor Paint",Thamel,4.4,Wed–Sun,9801000009
+10,homehelp,Electrician,"Socket Repair, Fuse Repair",Kirtipur,4,Mon–Fri,9801000010
+11,smart hand,AC Mechanic,"Compressor Fix, Cooling Issue Fix",Koteshwor,4.9,Thu–Mon,9801000011
+12,Everest Services,Plumber,"Tap Fix, Sink Fix",Maharajgunj,4.7,Tue–Sat,9801000012
+13,Home Relaiable,Carpenter,"Furniture Repair, Window Fix",Patan,4.7,Mon–Fri,9801000013
+14,Silk Sewa,AC Mechanic,"Cooling Issue Fix, Compressor Fix",Maharajgunj,3.7,Sat–Wed,9801000014
+15,Sherstha fix,Plumber,"Pipe Installation, Sink Fix",Maharajgunj,3.7,Sat–Wed,9801000015
+16,Gyam Fixer,Painter,"Texture Coating, Ceiling Paint",Bhaktapur,4.1,Thu–Mon,9801000016
+17,Doti Dynamics,Plumber,"Toilet Repair, Sink Fix",Chabahil,4.5,Sat–Wed,9801000017
+18,Achham Assistance,Plumber,"Toilet Repair, Tap Fix",Chabahil,4.3,Tue–Sat,9801000018
+19,Bajura Brigade,AC Mechanic,"AC Installation, Compressor Fix",Patan,4.9,Sat–Wed,9801000019
+20,Bajhang Boost,Electrician,"Light Installation, Fuse Repair",Maharajgunj,4.1,Wed–Sun,9801000020
+21,Rukum East Remedies,Plumber,"Tap Fix, Toilet Repair",Maharajgunj,4.1,Sat–Wed,9801000021
+22,Surkhet Specialist,Plumber,"Pipe Installation, Tap Fix",Koteshwor,3.8,Sat–Wed,9801000022
+23,Jajarkot Jobs,Carpenter,"Door Installation, Window Fix",Bhaktapur,4.7,Thu–Mon,9801000023
+24,Humla Helpers,Electrician,"Wiring, Socket Repair",Bhaktapur,3.6,Thu–Mon,9801000024
+25,Sunsari Services,Electrician,"Wiring, Socket Repair",Maharajgunj,3.6,Tue–Sat,9801000025
+26,Manakamana Tech,Painter,"Outdoor Paint, Ceiling Paint",Maharajgunj,4.3,Mon–Fri,9801000026
+27,Techmandu,Electrician,"Fuse Repair, Socket Repair",Koteshwor,4.1,Wed–Sun,9801000027
+28,Darchula Deals,Carpenter,"Furniture Repair, Door Installation",Baneshwor,4.4,Tue–Sat,9801000028
+29,Kathmandu Kings,Carpenter,"Window Fix, Furniture Repair",Patan,4.9,Sat–Wed,9801000029
+30,Pokhara Partners,Painter,"Wall Painting, Outdoor Paint",Kirtipur,4.9,Wed–Sun,9801000030
+31,Chitwan Crew,AC Mechanic,"Gas Refill, Compressor Fix",Bhaktapur,4.4,Tue–Sat,9801000031
+32,Lumbini League,Plumber,"Tap Fix, Toilet Repair",Baneshwor,3.8,Tue–Sat,9801000032
+33,Patan Pioneers,AC Mechanic,"Gas Refill, Compressor Fix",Maharajgunj,3.5,Wed–Sun,9801000033
+34,Sulka Sewa,Carpenter,"Wood Polishing, Window Fix",New Road,3.9,Sat–Wed,9801000034
+35,Gongabu Gurus,Plumber,"Sink Fix, Tap Fix",Maharajgunj,4.9,Sat–Wed,9801000035
+36,Swoyambhu Supports,Painter,"Ceiling Paint, Wall Painting",Thamel,4.3,Mon–Fri,9801000036
+37,Baneshwor Boost,Painter,"Texture Coating, Ceiling Paint",Kirtipur,4.5,Mon–Fri,9801000037
+38,Lazimpat Legends,Painter,"Outdoor Paint, Wall Painting",Thamel,4.4,Tue–Sat,9801000038
+39,Changunarayan,AC Mechanic,"AC Installation, Compressor Fix",New Road,3.7,Sat–Wed,9801000039
+40,GharFix Solutions,Carpenter,"Door Installation, Window Fix",Maharajgunj,3.6,Tue–Sat,9801000040
+41,Smart Home Repairs,AC Mechanic,"Compressor Fix, AC Installation",Baneshwor,3.6,Sat–Wed,9801000041
+42,QuickFix Hub,Carpenter,"Furniture Repair, Door Installation",Patan,4,Sat–Wed,9801000042
+43,FixerUp Nepal,Plumber,"Pipe Installation, Sink Fix",Baneshwor,3.9,Tue–Sat,9801000043
+44,Urban Handyman,Painter,"Wall Painting, Outdoor Paint",Koteshwor,5,Thu–Mon,9801000044
+45,Nivaas Repair Works,AC Mechanic,"AC Installation, Cooling Issue Fix",Maharajgunj,4.5,Mon–Fri,9801000045
+46,HomeMate Services,AC Mechanic,"AC Installation, Cooling Issue Fix",Baneshwor,5,Wed–Sun,9801000046
+47,EasyFix Team,Electrician,"Wiring, Fuse Repair",New Road,3.5,Thu–Mon,9801000047
+48,DailyRepair Nepal,AC Mechanic,"AC Installation, Cooling Issue Fix",Baneshwor,4.5,Mon–Fri,9801000048
+49,SewaGhar Solutions,Electrician,"Wiring, Light Installation",Koteshwor,3.8,Mon–Fri,9801000049
+50,LightItUp Electricians,AC Mechanic,"AC Installation, Cooling Issue Fix",Kirtipur,3.8,Thu–Mon,9801000050
+51,Spark Masters,Carpenter,"Door Installation, Wood Polishing",Thamel,4.3,Sat–Wed,9801000051
+52,VoltageFix,Carpenter,"Furniture Repair, Wood Polishing",Patan,3.8,Thu–Mon,9801000052
+53,BrightWire Repairs,Carpenter,"Wood Polishing, Furniture Repair",Baneshwor,4.7,Sat–Wed,9801000053
+54,Bijuli Brothers,Electrician,"Wiring, Socket Repair",Koteshwor,3.8,Wed–Sun,9801000054
+55,AquaFix Nepal,Painter,"Wall Painting, Outdoor Paint",Kirtipur,4.1,Wed–Sun,9801000055
+56,The Pipe Pros,Painter,"Texture Coating, Ceiling Paint",Thamel,4.3,Thu–Mon,9801000056
+57,Tap & Flow Services,Carpenter,"Door Installation, Wood Polishing",Koteshwor,3.8,Thu–Mon,9801000057
+58,CleanDrain Experts,Electrician,"Socket Repair, Light Installation",Koteshwor,5,Wed–Sun,9801000058
+59,GharPani Solutions,Plumber,"Toilet Repair, Pipe Installation",Baneshwor,4.2,Tue–Sat,9801000059
+60,WoodWorks Nepal,Electrician,"Light Installation, Socket Repair",Baneshwor,3.8,Sat–Wed,9801000060
+61,SmartJoiners,Plumber,"Sink Fix, Pipe Installation",Baneshwor,4.1,Mon–Fri,9801000061
+62,TimberFix Experts,Painter,"Wall Painting, Ceiling Paint",Koteshwor,4.1,Mon–Fri,9801000062
+63,Crafty Hands,Painter,"Texture Coating, Outdoor Paint",Baneshwor,4.1,Tue–Sat,9801000063
+64,WoodCare Crew,Carpenter,"Window Fix, Door Installation",Bhaktapur,4.3,Sat–Wed,9801000064
+65,CoolAid Technicians,Carpenter,"Furniture Repair, Door Installation",New Road,4.8,Sat–Wed,9801000065
+66,FridgeFix Nepal,Carpenter,"Door Installation, Wood Polishing",Kalanki,4.9,Mon–Fri,9801000066
+67,ChillMate Services,Painter,"Texture Coating, Ceiling Paint",Chabahil,4.2,Mon–Fri,9801000067
+68,GadgetCare Pros,Electrician,"Fuse Repair, Light Installation",Thamel,4.8,Wed–Sun,9801000068
+69,AppliFix Team,Painter,"Outdoor Paint, Ceiling Paint",Patan,4.5,Thu–Mon,9801000069
+70,SkillSet Sewa,Electrician,"Socket Repair, Wiring",Kalanki,4.4,Sat–Wed,9801000070
+71,AllRounder Repairs,Painter,"Ceiling Paint, Wall Painting",Bhaktapur,3.7,Thu–Mon,9801000071
+72,YourFixNepal,AC Mechanic,"AC Installation, Gas Refill",Thamel,4.5,Mon–Fri,9801000072
+73,MeroSewa House,AC Mechanic,"AC Installation, Cooling Issue Fix",Kalanki,4.7,Tue–Sat,9801000073
+74,Care & Repair Nepal,Carpenter,"Wood Polishing, Door Installation",Chabahil,3.5,Thu–Mon,9801000074
+75,Rin Home Services,Painter,"Wall Painting, Texture Coating",Koteshwor,4.1,Sat–Wed,9801000075
+76,SpeedyFix,Painter,"Outdoor Paint, Texture Coating",Bhaktapur,4.1,Sat–Wed,9801000076
+77,Handy Experts,Carpenter,"Window Fix, Wood Polishing",Kalanki,4.1,Sat–Wed,9801000077
+78,SmartRepair Hub,Electrician,"Wiring, Light Installation",Baneshwor,4.6,Tue–Sat,9801000078
+79,TrustyFixers,Painter,"Ceiling Paint, Wall Painting",Bhaktapur,4.7,Tue–Sat,9801000079
+80,HomeMate Solutions,Painter,"Ceiling Paint, Wall Painting",Maharajgunj,3.9,Tue–Sat,9801000080
+81,FixIt Pro,Electrician,"Fuse Repair, Wiring",Koteshwor,4.5,Tue–Sat,9801000081
+82,EasyHome Repair,Electrician,"Wiring, Light Installation",Chabahil,4,Mon–Fri,9801000082
+83,Master Handyman,Painter,"Texture Coating, Ceiling Paint",Baneshwor,3.7,Tue–Sat,9801000083
+84,Nepal Repair Works,Carpenter,"Window Fix, Wood Polishing",Chabahil,3.9,Sat–Wed,9801000084
+85,UrbanFix,AC Mechanic,"Compressor Fix, AC Installation",Baneshwor,3.5,Sat–Wed,9801000085
+86,Crafted Care,Painter,"Outdoor Paint, Wall Painting",Chabahil,3.8,Wed–Sun,9801000086
+87,EcoFix Services,Electrician,"Wiring, Socket Repair",Koteshwor,4.8,Mon–Fri,9801000087
+88,DailyFix Nepal,Electrician,"Wiring, Fuse Repair",Kirtipur,4.4,Tue–Sat,9801000088
+89,Rapid Repair,Electrician,"Socket Repair, Fuse Repair",Koteshwor,3.5,Tue–Sat,9801000089
+90,TechieFix,Painter,"Ceiling Paint, Outdoor Paint",Chabahil,5,Sat–Wed,9801000090
+91,FixPal,Painter,"Wall Painting, Outdoor Paint",Chabahil,4.6,Tue–Sat,9801000091
+92,FixXpress,Painter,"Wall Painting, Texture Coating",New Road,4.3,Mon–Fri,9801000092
+93,Skillful Hands,Carpenter,"Furniture Repair, Wood Polishing",Thamel,4.4,Sat–Wed,9801000093
+94,Reliable Repairs,Carpenter,"Door Installation, Window Fix",Patan,4.9,Wed–Sun,9801000094
+95,Himalayan Handyman,Carpenter,"Wood Polishing, Furniture Repair",Patan,4.9,Tue–Sat,9801000095
+96,GharKoFix,Electrician,"Socket Repair, Fuse Repair",New Road,4.8,Thu–Mon,9801000096
+97,QuickFix Nepal,Plumber,"Sink Fix, Pipe Installation",Kirtipur,3.7,Sat–Wed,9801000097
+98,Everest Repair Co.,AC Mechanic,"Gas Refill, AC Installation",Chabahil,4.2,Thu–Mon,9801000098
+99,MetroFix Services,Painter,"Outdoor Paint, Ceiling Paint",Chabahil,4.7,Tue–Sat,9801000099
+100,Happy Home Help,Electrician,"Wiring, Socket Repair",New Road,4.6,Mon–Fri,9801000100
+101,Sajilo Repair,Plumber,"Pipe Installation, Sink Fix",Maharajgunj,3.6,Thu–Mon,9801000101
+102,FastFix Pvt. Ltd.,Painter,"Outdoor Paint, Wall Painting",Bhaktapur,4.8,Thu–Mon,9801000102
+103,HomeAid Nepal,Plumber,"Sink Fix, Toilet Repair",Kalanki,4.3,Tue–Sat,9801000103
+104,GharSeva Solutions,Carpenter,"Door Installation, Furniture Repair",Patan,4.8,Mon–Fri,9801000104
+105,Mero Repair,Painter,"Outdoor Paint, Texture Coating",Chabahil,5,Thu–Mon,9801000105
+106,NepaFix,AC Mechanic,"Gas Refill, Compressor Fix",Bhaktapur,4.6,Tue–Sat,9801000106
+107,HomeTech Assist,Electrician,"Light Installation, Wiring",Maharajgunj,4.4,Tue–Sat,9801000107
+108,TensionFree Fix,Painter,"Ceiling Paint, Texture Coating",Patan,3.5,Thu–Mon,9801000108
+109,AllRounder Services,Painter,"Outdoor Paint, Ceiling Paint",Maharajgunj,3.8,Sat–Wed,9801000109
+110,SmartHand Help,AC Mechanic,"AC Installation, Gas Refill",Baneshwor,4.9,Thu–Mon,9801000110
+111,SkillSet Repairs,Electrician,"Wiring, Fuse Repair",Patan,4.1,Thu–Mon,9801000111
+112,Fixwala Nepal,AC Mechanic,"Gas Refill, Cooling Issue Fix",New Road,4.6,Thu–Mon,9801000112
+113,InstantFix Hub,Electrician,"Socket Repair, Wiring",Patan,4.7,Sat–Wed,9801000113
+114,HomePlus Repair,Electrician,"Wiring, Fuse Repair",Thamel,3.6,Sat–Wed,9801000114
+115,QuickAid Services,Electrician,"Light Installation, Socket Repair",Kalanki,3.8,Thu–Mon,9801000115
+116,FixaBee,Plumber,"Sink Fix, Pipe Installation",Maharajgunj,4.6,Thu–Mon,9801000116
+117,MeroFix Nepal,AC Mechanic,"Cooling Issue Fix, AC Installation",Baneshwor,4,Tue–Sat,9801000117
+118,UltraFix Team,Carpenter,"Door Installation, Wood Polishing",Bhaktapur,4.1,Tue–Sat,9801000118
+119,BrightFixers,Electrician,"Light Installation, Socket Repair",Koteshwor,4,Mon–Fri,9801000119
+120,Naya Repair House,Carpenter,"Furniture Repair, Door Installation",Kirtipur,4.7,Thu–Mon,9801000120
+121,HouseFixit,Plumber,"Toilet Repair, Tap Fix",Kalanki,4.1,Thu–Mon,9801000121
+122,ServiceWala,Carpenter,"Wood Polishing, Door Installation",Koteshwor,4.2,Thu–Mon,9801000122
+123,Repair Nest,AC Mechanic,"AC Installation, Compressor Fix",New Road,3.7,Thu–Mon,9801000123
+124,GharKoSajiloFix,Painter,"Texture Coating, Outdoor Paint",Chabahil,3.6,Tue–Sat,9801000124
+125,TuneUp Nepal,Plumber,"Toilet Repair, Tap Fix",Patan,4.1,Wed–Sun,9801000125
+126,HelpMeFix,Plumber,"Tap Fix, Toilet Repair",Kalanki,4.7,Thu–Mon,9801000126
+127,NepalFix Masters,Plumber,"Toilet Repair, Tap Fix",Thamel,4.5,Sat–Wed,9801000127
+128,SkillServe Pros,AC Mechanic,"Compressor Fix, Gas Refill",Bhaktapur,4.7,Sat–Wed,9801000128
+129,OnTime Repairs,Plumber,"Tap Fix, Sink Fix",Kalanki,4.1,Wed–Sun,9801000129
+130,KTM Home Fixers,Plumber,"Toilet Repair, Sink Fix",Kirtipur,4.9,Tue–Sat,9801000130
+131,SpeedyFix Nepal,Painter,"Ceiling Paint, Wall Painting",Koteshwor,3.6,Mon–Fri,9801000131
+132,HandyPro Nepal,Carpenter,"Door Installation, Window Fix",New Road,4.2,Tue–Sat,9801000132
+133,Fix It Fast!,Plumber,"Sink Fix, Toilet Repair",Kalanki,4.3,Wed–Sun,9801000133
+134,Ghar Service Express,AC Mechanic,"Compressor Fix, Gas Refill",Bhaktapur,5,Tue–Sat,9801000134
+135,LocalFix Nepal,Electrician,"Light Installation, Socket Repair",Baneshwor,3.9,Thu–Mon,9801000135
+136,Expert Touch Repairs,Plumber,"Toilet Repair, Pipe Installation",Koteshwor,3.6,Wed–Sun,9801000136
+137,CraftedFix Services,Plumber,"Sink Fix, Tap Fix",Bhaktapur,4.5,Mon–Fri,9801000137
+138,Reliable Repairs,Plumber,"Pipe Installation, Sink Fix",Chabahil,5,Tue–Sat,9801000138
+139,FixIt Hub,Plumber,"Pipe Installation, Sink Fix",Bhaktapur,3.8,Thu–Mon,9801000139
+140,MetroMend Services,Plumber,"Tap Fix, Pipe Installation",Koteshwor,4,Thu–Mon,9801000140
+141,SmartFix Pros,Plumber,"Toilet Repair, Pipe Installation",Chabahil,4.8,Wed–Sun,9801000141
+142,Elite Home Fixers,Carpenter,"Furniture Repair, Wood Polishing",Kalanki,4.7,Sat–Wed,9801000142
+143,Urban Repair Crew,AC Mechanic,"Gas Refill, Compressor Fix",Maharajgunj,3.5,Wed–Sun,9801000143
+144,QuickFix Nepal,Plumber,"Pipe Installation, Toilet Repair",Bhaktapur,4.6,Tue–Sat,9801000144
+145,Nepal Handy Pros,Electrician,"Wiring, Light Installation",Maharajgunj,4.3,Mon–Fri,9801000145
+146,The Maintenance Men,Electrician,"Socket Repair, Light Installation",Bhaktapur,4.4,Sat–Wed,9801000146
+147,Royal Fixers,Plumber,"Tap Fix, Sink Fix",Thamel,4,Wed–Sun,9801000147
+148,Himalayan Repair Squad,Plumber,"Pipe Installation, Tap Fix",Bhaktapur,4,Tue–Sat,9801000148
+149,A to Z Home Help,Plumber,"Pipe Installation, Tap Fix",New Road,4.4,Mon–Fri,9801000149
+150,CityFix Experts,Electrician,"Light Installation, Socket Repair",Kalanki,4,Thu–Mon,9801000150
+151,FastTrack Services,Painter,"Texture Coating, Ceiling Paint",Patan,4.4,Sat–Wed,9801000151
+152,Precision Repair Nepal,Painter,"Outdoor Paint, Wall Painting",Maharajgunj,4.5,Sat–Wed,9801000152
+153,FixGenie Services,Carpenter,"Wood Polishing, Door Installation",Chabahil,4.7,Sat–Wed,9801000153
+154,SureHands Home Help,Carpenter,"Furniture Repair, Wood Polishing",Koteshwor,5,Mon–Fri,9801000154
+155,GharKoFix,Plumber,"Tap Fix, Sink Fix",Baneshwor,4.4,Wed–Sun,9801000155
+156,Everest Home Repair,AC Mechanic,"AC Installation, Gas Refill",Koteshwor,3.9,Wed–Sun,9801000156
+157,TechTune Technicians,Carpenter,"Furniture Repair, Window Fix",Kirtipur,4,Thu–Mon,9801000157
+158,ProFix Gurus,AC Mechanic,"Gas Refill, AC Installation",Kalanki,4.2,Tue–Sat,9801000158
+159,TotalFix Nepal,Painter,"Texture Coating, Ceiling Paint",Kalanki,4.5,Tue–Sat,9801000159
+160,HandyWave Solutions,Electrician,"Wiring, Socket Repair",Koteshwor,3.7,Wed–Sun,9801000160
+161,FixRight Technicians,Electrician,"Socket Repair, Light Installation",Kirtipur,4.1,Mon–Fri,9801000161
+162,SolidFix Services,Electrician,"Wiring, Light Installation",Kirtipur,4,Tue–Sat,9801000162
+163,HappyHome Helpers,Plumber,"Pipe Installation, Toilet Repair",Koteshwor,4.1,Sat–Wed,9801000163
+164,AllSet Repairs,Painter,"Wall Painting, Ceiling Paint",Baneshwor,4.5,Mon–Fri,9801000164
+165,HouseWiz Nepal,Carpenter,"Furniture Repair, Wood Polishing",Koteshwor,4.2,Tue–Sat,9801000165
+166,Repair Gurkha,AC Mechanic,"Compressor Fix, Cooling Issue Fix",Baneshwor,4.4,Sat–Wed,9801000166
+167,UrbanTech Fix,AC Mechanic,"AC Installation, Gas Refill",Baneshwor,4.9,Tue–Sat,9801000167
+168,SwiftHome Experts,Carpenter,"Wood Polishing, Window Fix",Maharajgunj,4.6,Sat–Wed,9801000168
+169,FixMate Nepal,Plumber,"Sink Fix, Toilet Repair",Bhaktapur,4.6,Tue–Sat,9801000169
+170,HomeAid Services,Carpenter,"Wood Polishing, Window Fix",Thamel,3.8,Thu–Mon,9801000170
+171,SmartHome Fixers,Painter,"Wall Painting, Texture Coating",Maharajgunj,4.9,Tue–Sat,9801000171
+172,DailyFix Nepal,Painter,"Ceiling Paint, Wall Painting",Kirtipur,4.5,Mon–Fri,9801000172
+173,Infinity Innovators,Plumber,"Tap Fix, Sink Fix",Chabahil,4.4,Wed–Sun,9801000173
+174,Axis Artisans,Carpenter,"Wood Polishing, Window Fix",Baneshwor,3.7,Wed–Sun,9801000174
+175,Catalyst Crew,Plumber,"Pipe Installation, Toilet Repair",Baneshwor,4,Tue–Sat,9801000175
+176,Paragon Pros,Electrician,"Wiring, Fuse Repair",Bhaktapur,4.4,Wed–Sun,9801000176
+177,Zodiac Zone,Painter,"Texture Coating, Ceiling Paint",Thamel,4.3,Sat–Wed,9801000177
+178,Helix Hands,AC Mechanic,"Compressor Fix, Cooling Issue Fix",Baneshwor,3.5,Wed–Sun,9801000178
+179,Orbit Ops,AC Mechanic,"Gas Refill, Cooling Issue Fix",New Road,4.9,Wed–Sun,9801000179
+180,Comet Crafts,Plumber,"Sink Fix, Pipe Installation",Kalanki,3.7,Wed–Sun,9801000180
+181,Polaris Partners,Painter,"Texture Coating, Wall Painting",New Road,4.5,Tue–Sat,9801000181
+182,Radiant Repairs,Electrician,"Light Installation, Wiring",Baneshwor,4.3,Tue–Sat,9801000182
+183,Global Burus,Plumber,"Toilet Repair, Pipe Installation",New Road,3.7,Wed–Sun,9801000183
+184,Horizon Hands,Painter,"Ceiling Paint, Texture Coating",Koteshwor,3.7,Thu–Mon,9801000184
+185,Nexus Network,AC Mechanic,"Compressor Fix, Gas Refill",Koteshwor,4.9,Thu–Mon,9801000185
+186,Aurora Allies,Plumber,"Sink Fix, Tap Fix",Chabahil,3.9,Sat–Wed,9801000186
+187,Solar Support,AC Mechanic,"Cooling Issue Fix, Compressor Fix",Thamel,3.8,Sat–Wed,9801000187
+188,Lunar Legends,Plumber,"Toilet Repair, Tap Fix",Thamel,3.7,Mon–Fri,9801000188
+189,Apex Assistants,Painter,"Ceiling Paint, Outdoor Paint",Kalanki,3.9,Wed–Sun,9801000189
+190,Stratum Support,AC Mechanic,"Compressor Fix, AC Installation",Patan,3.6,Mon–Fri,9801000190
+191,Pinnacle Partners,Painter,"Outdoor Paint, Wall Painting",Koteshwor,3.6,Sat–Wed,9801000191
+192,Summit Specialists,Painter,"Wall Painting, Texture Coating",Koteshwor,3.6,Mon–Fri,9801000192
+193,Stellar solutions,Plumber,"Tap Fix, Toilet Repair",Maharajgunj,4.4,Mon–Fri,9801000193
+194,Drift Dynamics,Plumber,"Toilet Repair, Pipe Installation",Kalanki,4.9,Sat–Wed,9801000194
+195,Master Mend,Painter,"Wall Painting, Outdoor Paint",Chabahil,4.5,Mon–Fri,9801000195
+196,Colors Service,Electrician,"Fuse Repair, Socket Repair",Kirtipur,3.9,Sat–Wed,9801000196
+197,Narayan Electrics,Plumber,"Pipe Installation, Sink Fix",Thamel,4,Tue–Sat,9801000197
+198,Sabita Fix,AC Mechanic,"Gas Refill, Cooling Issue Fix",Bhaktapur,4.7,Wed–Sun,9801000198
+199,Quick Sewa,Plumber,"Pipe Installation, Sink Fix",Patan,4.6,Sat–Wed,9801000199
+200,Bina Enterprices,Plumber,"Tap Fix, Toilet Repair",New Road,4.5,Wed–Sun,9801000200
+201,Dhara Solutions,AC Mechanic,"AC Installation, Cooling Issue Fix",Kalanki,5,Thu–Mon,9801000201
+202,QuickCare Technicians,Electrician,"Light Installation, Socket Repair",Maharajgunj,4.4,Wed–Sun,9801000202
+203,AceFix Solutions,AC Mechanic,"Gas Refill, Compressor Fix",Patan,4.5,Tue–Sat,9801000203
+204,FixKart Nepal,Plumber,"Tap Fix, Sink Fix",Chabahil,4.8,Thu–Mon,9801000204
+205,City Home Care,Plumber,"Sink Fix, Pipe Installation",Koteshwor,3.6,Tue–Sat,9801000205
+206,TrustyFix Nepal,AC Mechanic,"AC Installation, Gas Refill",Koteshwor,5,Wed–Sun,9801000206
+207,HomeCraft Services,Plumber,"Toilet Repair, Sink Fix",Baneshwor,3.9,Thu–Mon,9801000207
+208,Repair Rangers,Electrician,"Socket Repair, Wiring",Koteshwor,3.8,Tue–Sat,9801000208
+209,SkillMate Nepal,AC Mechanic,"Gas Refill, Cooling Issue Fix",Patan,4.7,Sat–Wed,9801000209
+210,FixNest Services,Plumber,"Toilet Repair, Pipe Installation",Chabahil,4.9,Sat–Wed,9801000210
+211,UrbanAid Experts,Electrician,"Fuse Repair, Socket Repair",Maharajgunj,4.7,Wed–Sun,9801000211
+212,SpeedFix Home Help,Carpenter,"Door Installation, Window Fix",New Road,4.6,Sat–Wed,9801000212
+213,HomeEase Nepal,Carpenter,"Wood Polishing, Door Installation",Patan,3.8,Wed–Sun,9801000213
+214,SmartAid Fixers,Plumber,"Pipe Installation, Sink Fix",New Road,3.9,Thu–Mon,9801000214
+215,FixGhar Services,Carpenter,"Furniture Repair, Door Installation",Patan,3.8,Mon–Fri,9801000215
+216,EverFix Nepal,Electrician,"Fuse Repair, Wiring",Patan,4.4,Mon–Fri,9801000216
+217,TopGear Technicians,Carpenter,"Door Installation, Window Fix",Kirtipur,5,Thu–Mon,9801000217
+218,GharFix Network,Painter,"Wall Painting, Outdoor Paint",Baneshwor,3.5,Sat–Wed,9801000218
+219,AllHome Repair,AC Mechanic,"Cooling Issue Fix, Compressor Fix",New Road,3.6,Sat–Wed,9801000219
+220,CarePoint Fixers,AC Mechanic,"Cooling Issue Fix, Compressor Fix",Baneshwor,3.5,Tue–Sat,9801000220
+221,QuickAid Pros,AC Mechanic,"Gas Refill, AC Installation",Baneshwor,4.3,Thu–Mon,9801000221
+222,SolidHome Services,Plumber,"Toilet Repair, Tap Fix",Maharajgunj,4,Tue–Sat,9801000222
+223,FixFirst Nepal,Plumber,"Pipe Installation, Toilet Repair",Bhaktapur,5,Mon–Fri,9801000223
+224,PrimeFix Experts,AC Mechanic,"AC Installation, Gas Refill",Baneshwor,5,Wed–Sun,9801000224
+225,SkillBee Services,Painter,"Wall Painting, Texture Coating",Kalanki,4.7,Wed–Sun,9801000225
+226,Ghar Repair Co.,Electrician,"Socket Repair, Fuse Repair",Koteshwor,3.8,Tue–Sat,9801000226
+227,DailyHelp Nepal,Carpenter,"Furniture Repair, Window Fix",Maharajgunj,4.8,Thu–Mon,9801000227
+228,TrustAid Repairs,Carpenter,"Door Installation, Wood Polishing",Kalanki,4.8,Mon–Fri,9801000228
+229,HandyLine Technicians,Electrician,"Socket Repair, Wiring",Koteshwor,3.6,Wed–Sun,9801000229
+230,SwiftAid Nepal,Electrician,"Light Installation, Socket Repair",Baneshwor,4.9,Wed–Sun,9801000230
+231,RepairKo Masters,Painter,"Texture Coating, Ceiling Paint",Patan,5,Thu–Mon,9801000231
+232,EliteHand Services,Plumber,"Tap Fix, Toilet Repair",New Road,4.6,Tue–Sat,9801000232
+233,FixStation Nepal,Electrician,"Wiring, Fuse Repair",Chabahil,4.8,Thu–Mon,9801000233
+234,ProAid Solutions,Plumber,"Sink Fix, Pipe Installation",Baneshwor,4.6,Wed–Sun,9801000234
+235,Nepal CareLine,Electrician,"Light Installation, Fuse Repair",Thamel,4,Tue–Sat,9801000235
+236,FixPlus Experts,Plumber,"Tap Fix, Pipe Installation",Kalanki,4.1,Wed–Sun,9801000236
+237,HomeFix Dash,AC Mechanic,"Gas Refill, Cooling Issue Fix",Koteshwor,3.9,Sat–Wed,9801000237
+238,UrbanHands Nepal,Plumber,"Toilet Repair, Tap Fix",Chabahil,3.9,Mon–Fri,9801000238
+239,PowerFix Technicians,Painter,"Texture Coating, Ceiling Paint",Thamel,4,Sat–Wed,9801000239
+240,SmartMate Repairs,Plumber,"Pipe Installation, Tap Fix",Kirtipur,4.6,Wed–Sun,9801000240
+241,Reliable Home Aid,Electrician,"Light Installation, Wiring",Kalanki,3.9,Sat–Wed,9801000241
+242,Fixeroo Nepal,AC Mechanic,"Cooling Issue Fix, AC Installation",Kirtipur,4.3,Mon–Fri,9801000242
+243,FixDex Experts,Painter,"Texture Coating, Outdoor Paint",Bhaktapur,4.7,Mon–Fri,9801000243
+244,Nepal HomeCrew,Plumber,"Tap Fix, Toilet Repair",Patan,4.1,Sat–Wed,9801000244
+245,The Fixing Point,Carpenter,"Furniture Repair, Window Fix",Kalanki,4.5,Thu–Mon,9801000245
+246,NextGen Repairers,AC Mechanic,"AC Installation, Cooling Issue Fix",Bhaktapur,3.6,Thu–Mon,9801000246
+247,Nepal Fix Center,Carpenter,"Wood Polishing, Window Fix",Thamel,4,Tue–Sat,9801000247
+248,SnapFix Nepal,Electrician,"Wiring, Fuse Repair",New Road,4.4,Sat–Wed,9801000248
+249,EverAid Technicians,Plumber,"Sink Fix, Toilet Repair",Kalanki,4,Tue–Sat,9801000249
+250,CityPro Fixers,Electrician,"Fuse Repair, Wiring",New Road,4.1,Thu–Mon,9801000250
+251,HomeLink Services,Plumber,"Pipe Installation, Tap Fix",Thamel,4.2,Tue–Sat,9801000251
+252,A-1 Home Repair,AC Mechanic,"AC Installation, Cooling Issue Fix",Kalanki,3.6,Mon–Fri,9801000252
+253,Ghar Sewa Solutions,Carpenter,"Wood Polishing, Door Installation",Baneshwor,3.5,Tue–Sat,9801000253
+254,Swift Fix Nepal,Plumber,"Pipe Installation, Toilet Repair",Kirtipur,4.3,Wed–Sun,9801000254
+255,Saral Griha Sewa,Electrician,"Light Installation, Wiring",Bhaktapur,4.6,Sat–Wed,9801000255
+256,The Repair Crew,Painter,"Ceiling Paint, Outdoor Paint",Patan,5,Wed–Sun,9801000256
+257,Trusted Home Techs,AC Mechanic,"Gas Refill, Cooling Issue Fix",Baneshwor,3.5,Thu–Mon,9801000257
+258,Kathmandu Handyman,Painter,"Ceiling Paint, Texture Coating",Chabahil,3.8,Wed–Sun,9801000258
+259,Jeevan Griha Sewa,Plumber,"Sink Fix, Tap Fix",Kirtipur,4.6,Thu–Mon,9801000259
+260,Quick Fix Services,Plumber,"Pipe Installation, Tap Fix",Koteshwor,4.5,Tue–Sat,9801000260
+261,Ujjwal Maramat,Painter,"Texture Coating, Ceiling Paint",Thamel,4.7,Sat–Wed,9801000261
+262,Trusted Tinkering,Painter,"Ceiling Paint, Outdoor Paint",Thamel,5,Thu–Mon,9801000262
+263,Swift Solutions Nepal,Painter,"Texture Coating, Ceiling Paint",Maharajgunj,3.9,Thu–Mon,9801000263
+264,Skillful Sarathi,Plumber,"Tap Fix, Sink Fix",Kirtipur,3.8,Wed–Sun,9801000264
+265,Aarogya Griha Sewa,Painter,"Texture Coating, Ceiling Paint",Thamel,4.1,Mon–Fri,9801000265
+266,Handy Helper Nepal,AC Mechanic,"Compressor Fix, Gas Refill",Patan,3.8,Mon–Fri,9801000266
+267,Premier Home repair,Painter,"Outdoor Paint, Ceiling Paint",Kirtipur,3.8,Mon–Fri,9801000267
+268,Reliable Repair Co.,Painter,"Outdoor Paint, Ceiling Paint",Koteshwor,4.1,Wed–Sun,9801000268
+269,Expect Eco,AC Mechanic,"Compressor Fix, AC Installation",New Road,4.3,Thu–Mon,9801000269
+270,Samadhan Service,Carpenter,"Window Fix, Wood Polishing",Patan,4.4,Thu–Mon,9801000270
+271,Nirmala Griha,AC Mechanic,"Cooling Issue Fix, Compressor Fix",Kalanki,4.2,Wed–Sun,9801000271
+272,Purna Ghar Sewa,Painter,"Wall Painting, Ceiling Paint",Chabahil,4.4,Tue–Sat,9801000272
+273,Dynamic Durust,Plumber,"Tap Fix, Toilet Repair",Chabahil,4.7,Tue–Sat,9801000273
+274,Smart Maintenance,Electrician,"Light Installation, Fuse Repair",Baneshwor,3.8,Mon–Fri,9801000274
+275,Jan sewa Service,Painter,"Outdoor Paint, Wall Painting",Kirtipur,4.5,Mon–Fri,9801000275
+276,House Doctor,AC Mechanic,"Gas Refill, Cooling Issue Fix",Kirtipur,3.9,Wed–Sun,9801000276
+277,Gurkha Griha Sewa,Carpenter,"Window Fix, Wood Polishing",Thamel,4.2,Mon–Fri,9801000277
+278,Home Hero Services,Electrician,"Socket Repair, Wiring",Bhaktapur,4.4,Wed–Sun,9801000278
+279,Dhanyawaad Repair,AC Mechanic,"Cooling Issue Fix, AC Installation",Chabahil,4,Mon–Fri,9801000279
+280,Nirmal Nirman,Plumber,"Tap Fix, Toilet Repair",Chabahil,4.3,Wed–Sun,9801000280
+281,Quick Fix Nepal,Plumber,"Sink Fix, Toilet Repair",Chabahil,4,Sat–Wed,9801000281
+282,The Repair Guys,Painter,"Wall Painting, Ceiling Paint",Chabahil,3.6,Mon–Fri,9801000282
+283,Expert Home Maintenance,Painter,"Outdoor Paint, Texture Coating",New Road,4.7,Sat–Wed,9801000283
+284,Everest Home Repair,Painter,"Ceiling Paint, Wall Painting",Koteshwor,4.5,Sat–Wed,9801000284
+285,Capital City Repairs,Carpenter,"Wood Polishing, Window Fix",Kalanki,3.5,Mon–Fri,9801000285
+286,Lalitpur Fix-It,Electrician,"Socket Repair, Wiring",Chabahil,4.3,Tue–Sat,9801000286
+287,Fix & Go Solutions,Electrician,"Light Installation, Socket Repair",Thamel,5,Wed–Sun,9801000287
+288,Sajilo Sewa,Carpenter,"Window Fix, Wood Polishing",Kirtipur,3.8,Thu–Mon,9801000288
+289,Nailed It Repairs,Painter,"Outdoor Paint, Ceiling Paint",Thamel,4.7,Thu–Mon,9801000289
+290,Urban Handyman,Carpenter,"Wood Polishing, Door Installation",Bhaktapur,3.9,Wed–Sun,9801000290
+291,Local Repair Masters,AC Mechanic,"Compressor Fix, Cooling Issue Fix",Maharajgunj,4.9,Tue–Sat,9801000291
+292,All-In-One Repairs,Electrician,"Socket Repair, Light Installation",Baneshwor,4.7,Tue–Sat,9801000292
+293,FixFirst Team,Electrician,"Socket Repair, Light Installation",Koteshwor,4.7,Mon–Fri,9801000293
+294,Master Mistry,Electrician,"Wiring, Socket Repair",Thamel,4.1,Mon–Fri,9801000294
+295,SureHand Services,Painter,"Outdoor Paint, Ceiling Paint",Kirtipur,4.4,Tue–Sat,9801000295
+296,Bhaktapur Homecare,Painter,"Wall Painting, Ceiling Paint",Kalanki,5,Sat–Wed,9801000296
+297,Ace Home Fixers,Plumber,"Sink Fix, Pipe Installation",Kirtipur,3.5,Thu–Mon,9801000297
+298,Your Local Handyman,Electrician,"Light Installation, Socket Repair",Kirtipur,3.7,Wed–Sun,9801000298
+299,Urban Handy Pros,Carpenter,"Window Fix, Furniture Repair",Patan,4.8,Thu–Mon,9801000299
+300,Samridhi Sewa,Plumber,"Sink Fix, Tap Fix",Patan,4.6,Sat–Wed,9801000300
+301,RightTime Repairs,Painter,"Outdoor Paint, Wall Painting",Bhaktapur,4,Wed–Sun,9801000301
+302,Fix-It Fast,Carpenter,"Door Installation, Window Fix",Kirtipur,4.5,Thu–Mon,9801000302
+303,SafeNest Services,Electrician,"Light Installation, Wiring",Thamel,4.4,Thu–Mon,9801000303
+304,Newar Construction & Repairs,Plumber,"Sink Fix, Pipe Installation",Baneshwor,3.9,Wed–Sun,9801000304
+305,PrimePatch Repairs,Electrician,"Socket Repair, Wiring",Kalanki,3.9,Sat–Wed,9801000305
+306,The Service Spot,Painter,"Wall Painting, Texture Coating",Kirtipur,4.6,Sat–Wed,9801000306
+307,ratiksha Home Repair,Painter,"Wall Painting, Outdoor Paint",Kirtipur,4,Tue–Sat,9801000307
+308,A-Z Home Solutions,AC Mechanic,"Gas Refill, AC Installation",Kalanki,3.9,Wed–Sun,9801000308
+309,Surya Home Repair,Painter,"Outdoor Paint, Ceiling Paint",Patan,4.3,Sat–Wed,9801000309
+310,Jastai T-Fix,AC Mechanic,"Cooling Issue Fix, AC Installation",Baneshwor,4.3,Tue–Sat,9801000310
+311,rusted Home Techs,AC Mechanic,"AC Installation, Gas Refill",New Road,3.6,Wed–Sun,9801000311
+312,Dream Home Repair,Carpenter,"Furniture Repair, Wood Polishing",Maharajgunj,3.8,Wed–Sun,9801000312
+313,Nirmal Nirmaan,Carpenter,"Window Fix, Furniture Repair",Thamel,4.1,Thu–Mon,9801000313
+314,Himalayan Handyman,Carpenter,"Furniture Repair, Wood Polishing",Chabahil,4.4,Mon–Fri,9801000314
+315,ProFix Nepal,Electrician,"Fuse Repair, Socket Repair",Patan,4.1,Mon–Fri,9801000315
+316,Gurkha Gadgets & Repairs,Electrician,"Socket Repair, Light Installation",New Road,4,Wed–Sun,9801000316
+317,Future Fixes Nepal,AC Mechanic,"Gas Refill, AC Installation",Bhaktapur,3.6,Wed–Sun,9801000317
+318,The Home Fixers,Plumber,"Pipe Installation, Toilet Repair",Bhaktapur,3.6,Mon–Fri,9801000318
+319,Tap Fix,Plumber,"Sink Fix, Tap Fix",Maharajgunj,4.5,Wed–Sun,9801000319
+320,Janakpuri Home Services,Electrician,"Socket Repair, Fuse Repair",Chabahil,3.9,Tue–Sat,9801000320
+321,Ahuja Homes,Painter,"Wall Painting, Outdoor Paint",Koteshwor,4.9,Mon–Fri,9801000321
+322,City Handyman,Electrician,"Light Installation, Wiring",Patan,3.6,Tue–Sat,9801000322
+323,Pragati Griha,Plumber,"Tap Fix, Sink Fix",Baneshwor,4.6,Thu–Mon,9801000323
+324,Prime Home Repair,Electrician,"Light Installation, Fuse Repair",New Road,4.1,Thu–Mon,9801000324
+325,Divine Nepal,Plumber,"Toilet Repair, Pipe Installation",Thamel,4.7,Sat–Wed,9801000325
+326,Nepal Ghar Sudhar,AC Mechanic,"Cooling Issue Fix, Compressor Fix",Bhaktapur,4.1,Wed–Sun,9801000326
+327,Shree home services,Plumber,"Pipe Installation, Tap Fix",New Road,3.8,Thu–Mon,9801000327
+328,The Trusted Handyman,AC Mechanic,"AC Installation, Gas Refill",New Road,3.5,Wed–Sun,9801000328
+329,Smart Fix Hub,Carpenter,"Window Fix, Furniture Repair",Koteshwor,4.9,Sat–Wed,9801000329
+330,Fast Fixers Nepal,AC Mechanic,"Cooling Issue Fix, Gas Refill",Baneshwor,4.2,Wed–Sun,9801000330
+331,Global Solutions,AC Mechanic,"Gas Refill, AC Installation",Baneshwor,4.3,Thu–Mon,9801000331
+332,Home Harmony Services,Electrician,"Wiring, Fuse Repair",Baneshwor,4.5,Thu–Mon,9801000332
+333,world Services,Electrician,"Light Installation, Wiring",Patan,4.1,Mon–Fri,9801000333
+334,Pokhara Purnata,Carpenter,"Window Fix, Furniture Repair",Koteshwor,4.6,Sat–Wed,9801000334
+335,Rapid Response,Painter,"Outdoor Paint, Wall Painting",Kalanki,4.4,Mon–Fri,9801000335
+336,Service Samrachhan,Plumber,"Tap Fix, Sink Fix",Koteshwor,4.4,Sat–Wed,9801000336
+337,Siddhi Sewa,Carpenter,"Furniture Repair, Wood Polishing",Bhaktapur,3.9,Tue–Sat,9801000337
+338,The Repair Crew,Painter,"Outdoor Paint, Ceiling Paint",Patan,3.6,Thu–Mon,9801000338
+339,Smart Fix Hub,AC Mechanic,"Cooling Issue Fix, Gas Refill",Kalanki,4.6,Tue–Sat,9801000339
+340,Sathi Home Services,Carpenter,"Wood Polishing, Door Installation",Patan,4.4,Tue–Sat,9801000340
+341,Om Home Repairs,Plumber,"Pipe Installation, Tap Fix",Koteshwor,4.9,Wed–Sun,9801000341
+342,Complete Care Solutions,Plumber,"Toilet Repair, Tap Fix",Maharajgunj,4.8,Thu–Mon,9801000342
+343,Everst Services,Carpenter,"Furniture Repair, Wood Polishing",Kalanki,4.1,Thu–Mon,9801000343
+344,Ghar Jagat Repair,Carpenter,"Furniture Repair, Window Fix",Maharajgunj,5,Wed–Sun,9801000344
+345,Bandhan Sewa,Plumber,"Sink Fix, Toilet Repair",Kalanki,4,Mon–Fri,9801000345
+346,Pro Fix Nepal,Electrician,"Fuse Repair, Socket Repair",Maharajgunj,4.7,Thu–Mon,9801000346
+347,Daya Maramat,Painter,"Wall Painting, Outdoor Paint",New Road,4.1,Wed–Sun,9801000347
+348,The Service Hub,Plumber,"Pipe Installation, Toilet Repair",Baneshwor,4.3,Wed–Sun,9801000348
+349,The Home Rescuers,Electrician,"Wiring, Fuse Repair",New Road,3.8,Thu–Mon,9801000349
+350,Nirantar Service,Carpenter,"Furniture Repair, Window Fix",Kirtipur,3.9,Wed–Sun,9801000350
+351,Mitra Solutions,Carpenter,"Window Fix, Wood Polishing",New Road,4.4,Sat–Wed,9801000351
+352,House and Home Fix,Carpenter,"Door Installation, Window Fix",Bhaktapur,3.8,Sat–Wed,9801000352
+353,Bikas Sewa,Painter,"Wall Painting, Ceiling Paint",Kirtipur,4.7,Thu–Mon,9801000353
+354,The Handy Pro,Painter,"Texture Coating, Wall Painting",Koteshwor,3.7,Mon–Fri,9801000354
+355,Urban Maintenance,AC Mechanic,"Gas Refill, Cooling Issue Fix",Bhaktapur,3.9,Thu–Mon,9801000355
+356,Srijana Sewa,AC Mechanic,"Compressor Fix, AC Installation",Thamel,4,Sat–Wed,9801000356
+357,Purna Paila,Plumber,"Toilet Repair, Sink Fix",Bhaktapur,5,Wed–Sun,9801000357
+358,Dependable Home Repairs,Plumber,"Pipe Installation, Toilet Repair",Patan,4.8,Tue–Sat,9801000358
+359,The Home Doctor,Painter,"Ceiling Paint, Outdoor Paint",Maharajgunj,4.8,Thu–Mon,9801000359
+360,The Helping Hand Co.,Plumber,"Sink Fix, Toilet Repair",Koteshwor,4.2,Thu–Mon,9801000360
+361,Sajilo Samadhan,Painter,"Ceiling Paint, Wall Painting",Bhaktapur,4.1,Mon–Fri,9801000361
+362,Nispakchya Niyojan,Plumber,"Toilet Repair, Tap Fix",Chabahil,3.7,Tue–Sat,9801000362
+363,Bagmati Maintenance,Carpenter,"Wood Polishing, Window Fix",Baneshwor,4.9,Tue–Sat,9801000363
+364,Modern Maintenance,Carpenter,"Window Fix, Wood Polishing",Chabahil,3.7,Sat–Wed,9801000364
+365,The Service Standard,Carpenter,"Furniture Repair, Door Installation",Bhaktapur,3.7,Thu–Mon,9801000365
+366,Home First Aid,Electrician,"Socket Repair, Fuse Repair",Koteshwor,4.2,Wed–Sun,9801000366
+367,The Home Team,AC Mechanic,"Compressor Fix, AC Installation",Kalanki,4.5,Thu–Mon,9801000367
+368,Prithvi Home Solutions,AC Mechanic,"AC Installation, Cooling Issue Fix",Kirtipur,4.7,Sat–Wed,9801000368
+369,The Repair Shop,Painter,"Texture Coating, Outdoor Paint",Patan,4.5,Mon–Fri,9801000369
+370,The Repair People,Painter,"Outdoor Paint, Ceiling Paint",Kalanki,4.7,Mon–Fri,9801000370
+371,The Home Repair Heroes,Electrician,"Light Installation, Wiring",Kirtipur,4.2,Thu–Mon,9801000371
+372,Safe & Sound Services,Painter,"Ceiling Paint, Wall Painting",Bhaktapur,4.5,Wed–Sun,9801000372
+373,Everest Home Services,Carpenter,"Window Fix, Furniture Repair",Maharajgunj,3.7,Tue–Sat,9801000373
+374,Kathmandu Home Care,Plumber,"Tap Fix, Sink Fix",Kirtipur,4.9,Mon–Fri,9801000374
+375,The Handyman Guild,Painter,"Ceiling Paint, Wall Painting",Kalanki,3.6,Mon–Fri,9801000375
+376,Shanti Maintenance,Carpenter,"Window Fix, Furniture Repair",Baneshwor,3.8,Sat–Wed,9801000376
+377,Quality Craftsmanship,Painter,"Outdoor Paint, Texture Coating",Chabahil,4.5,Mon–Fri,9801000377
+378,Quick Response Repairs,Carpenter,"Wood Polishing, Furniture Repair",Kirtipur,4.4,Wed–Sun,9801000378
+379,The Handyman Express,Carpenter,"Window Fix, Wood Polishing",Kalanki,4.1,Wed–Sun,9801000379
+380,Global Home Services,Painter,"Outdoor Paint, Texture Coating",Koteshwor,4.2,Mon–Fri,9801000380
+381,Shree Sanchayan,Plumber,"Pipe Installation, Toilet Repair",Baneshwor,4.2,Thu–Mon,9801000381
+382,Sahi Mistry,AC Mechanic,"AC Installation, Gas Refill",Kirtipur,4.3,Thu–Mon,9801000382
+383,Total Home Care,Plumber,"Toilet Repair, Sink Fix",New Road,4.2,Mon–Fri,9801000383
+384,The Home Improvement Gurus,Painter,"Outdoor Paint, Ceiling Paint",Bhaktapur,4.3,Wed–Sun,9801000384
+385,The Home Fix-It Company,Plumber,"Tap Fix, Sink Fix",Kalanki,3.6,Tue–Sat,9801000385
+386,Gorkha Griha Sewa,AC Mechanic,"Cooling Issue Fix, Gas Refill",Baneshwor,4.5,Sat–Wed,9801000386
+387,Patan Home Services,Carpenter,"Wood Polishing, Window Fix",Thamel,4.9,Thu–Mon,9801000387
+388,Quality Fixes Nepal,Electrician,"Wiring, Socket Repair",Maharajgunj,4.2,Mon–Fri,9801000388
+389,Nepal Repair Centre,Carpenter,"Door Installation, Wood Polishing",Bhaktapur,4.8,Wed–Sun,9801000389
+390,On-Time Repairs,Painter,"Wall Painting, Texture Coating",Kalanki,4.5,Thu–Mon,9801000390
+391,Gauri-Shankar Repair Services,Plumber,"Pipe Installation, Tap Fix",Thamel,4.7,Thu–Mon,9801000391
+392,The Professional Handyman,Electrician,"Socket Repair, Wiring",Koteshwor,4.1,Tue–Sat,9801000392
+393,The Renovation Station,AC Mechanic,"Compressor Fix, Gas Refill",Chabahil,3.8,Tue–Sat,9801000393
+394,Udyam Ghar Sewa,AC Mechanic,"AC Installation, Compressor Fix",Maharajgunj,4.8,Thu–Mon,9801000394
+395,The Home Service Pros,Painter,"Ceiling Paint, Wall Painting",Chabahil,4,Thu–Mon,9801000395
+396,Home Repair Experts,AC Mechanic,"AC Installation, Cooling Issue Fix",Chabahil,3.7,Sat–Wed,9801000396
+397,Reliable Repairmen,Carpenter,"Door Installation, Window Fix",Koteshwor,4.5,Wed–Sun,9801000397
+398,The Maintenance Masters,Electrician,"Wiring, Socket Repair",Patan,4.5,Thu–Mon,9801000398
+399,Kirtipur Home Solutions,AC Mechanic,"Compressor Fix, Gas Refill",Kirtipur,3.9,Sat–Wed,9801000399
+400,Biratnagar Repair Hub,Carpenter,"Window Fix, Door Installation",Bhaktapur,4.7,Mon–Fri,9801000400

@@ -1,0 +1,45 @@
+/* Custom styles to complement Bootstrap */
+
+body {
+    /* Font family is now set in base.html body style */
+    /* background-color is now set via Bootstrap bg-light class in base.html */
+    color: #333;
+}
+
+/* Navbar styles removed as the navbar itself is removed from base.html */
+
+
+.container {
+    /* Max-width and margin handled by Bootstrap's .container class */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 0.5rem; /* Bootstrap's default rounded corners */
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); /* Bootstrap-like shadow */
+}
+
+/* No need for specific form input/button styles as Bootstrap handles them */
+/* You can add custom styles here if you need to override Bootstrap defaults */
+/* For example, if you want a specific button color not provided by Bootstrap themes */
+/* Or custom hover effects */
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f8f9fa; /* Light grey background for list items */
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    border: 1px solid #e9ecef; /* Light border */
+}
+
+a {
+    color: #0d6efd; /* Bootstrap primary blue for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

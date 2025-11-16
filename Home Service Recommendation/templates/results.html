@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+{% block title %}Home Service Recommender - Results{% endblock %}
+
+{% block content %}
+    <div class="card p-4 shadow-sm rounded-4">
+        <h1 class="card-title text-center mb-4 text-primary">Recommended Services</h1>
+        <p class="mb-4 text-center">Based on your request for <strong>{{ user_input.service_type if user_input.service_type else 'any service' }}</strong> services in <strong>{{ user_input.location if user_input.location else 'any location' }}</strong> (Skills: {{ user_input.skills if user_input.skills else 'any' }}, Min Rating: {{ user_input.rating if user_input.rating else '1.0' }}, Days: {{ user_input.days_available if user_input.days_available else 'any' }}). Sorted by: <strong>{{ sort_by }} ({{ sort_order }})</strong></p>
+
+        {% if error_message %}
+            <div class="alert alert-danger text-center rounded-pill" role="alert">
+                {{ error_message }}
+            </div>
+        {% endif %}
+
+        {% if recommendations %}
+            <div class="row row-cols-1 g-3">
+                {% for service in recommendations %}
+                    <div class="col">
+                        <div class="card h-100 rounded-4 shadow-sm">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary">
+                                    <a href="{{ url_for('service_detail', service_id=service.ID) }}" class="text-decoration-none text-primary">
+                                        {{ service.Name }}
+                                    </a>
+                                </h5>
+                                <h6 class="card-subtitle mb-2 text-muted">{{ service['Service Type'] }}</h6>
+                                <p class="card-text mb-1"><strong>Rating:</strong> <span class="badge bg-success">{{ service.Rating }} &#9733;</span></p>
+                                <p class="card-text mb-1"><strong>Location:</strong> {{ service.Location }}</p>
+                                <p class="card-text mb-1"><strong>Skills:</strong> {{ service.Skills }}</p>
+                                <p class="card-text mb-1"><strong>Days Available:</strong> {{ service['Days Available'] }}</p>
+                                <p class="card-text">
+                                    <strong>Contact:</strong>
+                                    <span id="contact-{{ loop.index }}" class="contact-number">{{ service.Contact }}</span>
+                                    <button class="btn btn-sm btn-outline-secondary ms-2 copy-contact-btn" data-contact="{{ service.Contact }}" data-target="contact-{{ loop.index }}">
+                                        Copy
+                                    </button>
+                                    <span id="copied-message-{{ loop.index }}" class="ms-2 text-success fw-bold d-none">Copied!</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        {% else %}
+            {% if not error_message %}
+                <div class="alert alert-info text-center rounded-pill" role="alert">
+                    <p class="lead">No recommendations found for your current criteria.</p>
+                    <p>Try broadening your search by:</p>
+                    <ul>
+                        <li>Selecting "Any Location"</li>
+                        <li>Lowering the "Minimum Rating"</li>
+                        <li>Leaving "Desired Skills" or "Days Available" blank</li>
+                        <li>Choosing "Any Service" type</li>
+                    </ul>
+                    <a href="/" class="btn btn-outline-primary rounded-pill mt-3">Go back and refine search</a>
+                </div>
+            {% endif %}
+        {% endif %}
+
+        <div class="text-center mt-4">
+            <a href="/" class="btn btn-outline-secondary rounded-pill">Go back to Home</a>
+        </div>
+    </div>
+{% endblock %}
